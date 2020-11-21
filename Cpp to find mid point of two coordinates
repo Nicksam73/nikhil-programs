@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a,b,c,d,x,y;
+cout <<"enter first point"<<endl;
+cin>>a>>b;
+cout<<"enter second point"<<endl;
+cin>>c>>d;
+x = (a+c)/2;
+y =(b+d)/2;
+cout<<"mid point of two points is "<< "("<<x<<","<<y<<")"<<endl;
+    return 0;
