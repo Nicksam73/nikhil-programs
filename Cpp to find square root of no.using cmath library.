@@ -1,0 +1,11 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+
+int main() {
+int input ;
+cin>>input ;
+double root =sqrt( input);
+cout <<root<<endl;
+    return 0;
+}
