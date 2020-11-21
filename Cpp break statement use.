@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int input ,sum; 
+while ( true )
+{
+cin>>input;
+if (input <0)
+break;
+sum+=input;
+cout<<sum<<endl;
+    
+}
+    return 0;
+}
