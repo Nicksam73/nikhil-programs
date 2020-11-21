@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int n,num, reversed,r ;
+cin>>num;
+n=num;
+while (num !=0)
+{
+    r =num %10;
+    reversed  = reversed * 10 + r ;
+    num= num/10;
+    
+} 
+cout <<"given number :"<<n<<endl;
+cout<<"reverse of number :"<<reversed <<endl;
+if (n == reversed )
+{
+    cout<<"no is palindrome "<<endl;
+}
+else 
+{
+    cout<<"no is not a palindrome "<<endl;
+}
+
+
+    return 0;
+}
