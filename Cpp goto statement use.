@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int num ; 
+char ans ;
+start : 
+cout <<"enter num"<<endl;
+cin>>num;
+if (num %2==0)
+{cout<<"even"<<endl;}
+else 
+{cout <<"odd"<<endl;}
+
+cout<<"do u want to exit ? y/n "<<endl;
+cin>> ans ;
+if (ans == 'n')
+goto start ;
+    return 0;
+}
