@@ -1,0 +1,14 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main() {
+int count =1 ;
+while (count <=6)
+{
+    
+    cout <<setw (4)<<count <<endl;
+    count ++;
+}
+    return 0;
+}
