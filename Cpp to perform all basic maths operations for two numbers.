@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+float  x,y ,sum,diff,div,multi;
+cin>>x>>y;
+sum =x+y;
+cout<<"x+y ="<< sum<< endl;
+diff = x -y ;
+cout<<"x-y ="<<diff<<endl;
+div =x/y;
+cout<<"x/y ="<<div<<endl;
+multi= x*y;
+cout<<"x*y="<<multi<<endl;
+
+
+    return 0;
+}
