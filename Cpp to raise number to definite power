@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int exp ; 
+float base ,result=1 ; 
+cin>>base>>exp;
+cout<<base<<"^"<<exp<<"=";
+while (exp !=0)
+{
+    result = base * result;
+    --exp ;
+}
+cout<<result;
+    return 0;
+}
