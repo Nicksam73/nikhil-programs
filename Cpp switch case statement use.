@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int beverage ;
+cin>>beverage ; 
+switch (beverage)
+{
+    case 0:
+    cout <<"coffee";
+    break;
+    case 1 :
+    cout<<"tea";
+    break;
+    default :
+    cout <<"kuchh bhi de do  "; 
+    cout <<endl;
+}
+    return 0;
+}
